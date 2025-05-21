@@ -70,7 +70,7 @@ lite_cog/                			#项目根目录
 |         ├──package.xml			#ROS功能包描述文件
 |         └──README.md				#功能包使用说明
 │      ├──move_base				#实现路径规划和导航控制
-│      ├──navigation
+│      ├──navigation				#负责机器狗在导航中的路径规划功能
 │      ├──ndt_omp
 │      ├──teb_local_planner
 │      └──CMakeLists.txt                
@@ -99,7 +99,7 @@ lite_cog/                			#项目根目录
 |      ├──octomap_mapping			#构建3D占用地图
 |      ├──pcd2grid				#将三维点云地图(.pcd)转为栅格地图(.pgm)并发布
 |      └──CMakeLists.txt		        #SLAM模块编译配置    
-├── system/					
+├── system/					#系统模块
 |   ├──map/					#地图文件存储目录
 |      ├──lite3.pcd				#3D点云地图文件
 |      ├──lite3.pgm				#2D栅格地图图像文件
